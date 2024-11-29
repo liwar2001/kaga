@@ -1,4 +1,4 @@
-name = "ns1" # todo
+name = "sg-do1" # todo
 main = "_worker.js"
 compatibility_date = "2024-05-26"
 
@@ -7,7 +7,7 @@ pattern = "ns1.bmkg.xyz"
 custom_domain = true
 
 [[routes]]
-pattern = "support.zoom.us.ns1.bmkg.xyz"
+pattern = "support.zoom.us.sg-do1.bmkg.xyz"
 custom_domain = true
 
 [[routes]]
@@ -15,11 +15,11 @@ pattern = "ava.game.naver.com.ns1.bmkg.xyz"
 custom_domain = true
 
 [[routes]]
-pattern = "qiuz.int.vidio.com.ns1.bmkg.xyz"
+pattern = "qiuz.int.vidio.com.sg-do1.bmkg.xyz"
 custom_domain = true
 
 [[routes]]
-pattern = "zaintest.vuclip.com.ns1.bmkg.xyz"
+pattern = "zaintest.vuclip.com.sg-do1.bmkg.xyz"
 custom_domain = true
 
 [vars]
