@@ -1,29 +1,95 @@
-name = "sg-do1" # todo
+name = "sg-do" # todo
 main = "_worker.js"
 compatibility_date = "2024-05-26"
 
+
+[unsafe.metadata.observability]
+enabled = true
+
+[observability.logs]
+enabled = true
 [[routes]]
-pattern = "ns1.bmkg.xyz"
+pattern = "sg-do.bmkg.xyz"
+custom_domain = true
+[[routes]]
+pattern = "ava.game.naver.com.sg-do.bmkg.xyz"
+custom_domain = true
+[[routes]]
+pattern = "graph.instagram.com.sg-do.bmkg.xyz"
+custom_domain = true
+[[routes]]
+pattern = "quiz.int.vidio.com.sg-do.bmkg.xyz"
+custom_domain = true
+[[routes]]
+pattern = "live.iflix.com.vcip.bmkg.xyz"
+custom_domain = true
+[[routes]]
+pattern = "support.zoom.us.sg-do.bmkg.xyz"
+custom_domain = true
+[[routes]]
+pattern = "blog.webex.com.sg-do.bmkg.xyz"
+custom_domain = true
+[[routes]]
+pattern = "investors.spotify.com.sg-do.bmkg.xyz"
+custom_domain = true
+[[routes]]
+pattern = "cache.netflix.com.sg-do.bmkg.xyz"
+custom_domain = true
+[[routes]]
+pattern = "zaintest.vuclip.com.sg-do.bmkg.xyz"
+custom_domain = true
+[[routes]]
+pattern = "io.ruangguru.com.sg-do.bmkg.xyz"
+custom_domain = true
+[[routes]]
+pattern = "business.blibli.com.sg-do.bmkg.xyz"
+custom_domain = true
+[[routes]]
+pattern = "api.midtrans.com.sg-do.bmkg.xyz"
+custom_domain = true
+[[routes]]
+pattern = "sg-do.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "ava.game.naver.com.sg-do.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "graph.instagram.com.sg-do.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "quiz.int.vidio.com.sg-do.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "live.iflix.com.vcip.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "support.zoom.us.sg-do.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "blog.webex.com.sg-do.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "investors.spotify.com.sg-do.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "cache.netflix.com.sg-do.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "zaintest.vuclip.com.sg-do.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "io.ruangguru.com.sg-do.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "business.blibli.com.sg-do.ndeso.web.id"
+custom_domain = true
+[[routes]]
+pattern = "api.midtrans.com.sg-do.ndeso.web.id"
 custom_domain = true
 
-[[routes]]
-pattern = "support.zoom.us.sg-do1.bmkg.xyz"
-custom_domain = true
-
-[[routes]]
-pattern = "ava.game.naver.com.ns1.bmkg.xyz"
-custom_domain = true
-
-[[routes]]
-pattern = "qiuz.int.vidio.com.sg-do1.bmkg.xyz"
-custom_domain = true
-
-[[routes]]
-pattern = "zaintest.vuclip.com.sg-do1.bmkg.xyz"
-custom_domain = true
 
 [vars]
-PROXYIP = "167.71.194.185"
+PROXYIP = "178.128.80.43:443"
 # "54.251.167.101"
  # 35.219.15.90 ID
  # 51.79.254.182
